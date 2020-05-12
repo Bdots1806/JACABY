@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,900);
+
+@font-face {
+    font-family: "ComicSansMS";
+    src: url(ComicSansMS.ttf) format("truetype");
+}
+body,h1 {
+	font-family: "Lato";
+}
+
+body, html {
+    background-color: #111; 
+    height: 100%
+}
+
+#myvideo{
+    
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.bgimg {
+  background: #ffffff;
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.t-size {
+    font-size: 5vw;
+}
+.h-size {
+    font-size: 7vw;
+}
+
+.s-white-text {
+    color: #fff;
+}
+.s-red-text {
+    color: red;
+}
+.thin { 
+    font-weight: 300; 
+}
+.thick {  
+    font-weight: 900; 
+}
+.thick-1 { 
+    color: #fff; 
+    font-weight: 900; 
+}
+
+.animate-top-1{position:relative;animation:animatetop 0.6s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+.animate-top-2{position:relative;animation:animatetop 0.8s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+.animate-top-3{position:relative;animation:animatetop 1.0s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+.animate-top-3{position:relative;animation:animatetop 1.5s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+
+.animate-zoom {animation:animatezoom 1.1s}@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+
+.large{font-size:16px!important}
+a:link{
+text-decoration:none; 
+}
+a:visited{
+  text-decoration:none;
+}
+a:hover{
+  text-decoration:none;
+}
+a:active{
+ text-decoration:none;
+}
